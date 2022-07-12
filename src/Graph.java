@@ -55,8 +55,14 @@ class Graph {
         }
     }
     public static void main(String[] args) throws Exception {
-        Graph myG = new Graph(10);
-        myG.randGen();
-        myG.print();
+        // Graph myG = new Graph(10);
+        // myG.randGen();
+        // myG.print();
+        List<Edge> my = new ArrayList<>();
+        my.add(new Edge(1, 2));
+        boolean a = false;
+        a=my.contains(new Edge(1,2));
+
+        System.out.println(a);
     }
 }
