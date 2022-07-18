@@ -12,8 +12,9 @@ class DFS {
         this.g = g;
     }
 
-    public void directedDFS(int v,boolean[] activedV, boolean exploredV, HashMap<Integer,Integer> exploredE) {
+    public void directedDFS(int v,boolean[] activedV, boolean[] exploredV, List<Edge> discoveredE) {
         activedV[v] = true;
+
         for (int outgoing : g.neighbours(v)) {
             Edge curEdge = new Edge(v, outgoing);
             

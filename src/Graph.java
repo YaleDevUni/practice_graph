@@ -58,11 +58,19 @@ class Graph {
         // Graph myG = new Graph(10);
         // myG.randGen();
         // myG.print();
-        List<Edge> my = new ArrayList<>();
-        my.add(new Edge(1, 2));
-        boolean a = false;
-        a=my.contains(new Edge(1,2));
+        // List<Edge> my = new ArrayList<>();
+        // my.add(new Edge(1, 2));
+        // boolean a = false;
+        // a=my.contains(new Edge(1,2));
 
-        System.out.println(a);
+        // System.out.println(a);
+        
+           
+                for (int i = 0; i < 1000; i++) {
+                    System.out.println("sohyun is 바보멍충이");
+                }
+         
+        
+        
     }
 }
